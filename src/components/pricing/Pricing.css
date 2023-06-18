@@ -1,0 +1,59 @@
+.pricing-main {
+  width: 315px;
+  height: 268px;
+  background: #ffffff;
+  border: 2px solid #0451ab;
+  box-sizing: border-box;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pricing-plan-standard {
+  font-family: Plus Jakarta Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  color: #5c5c5c;
+}
+
+.pricing-plan-amount {
+  font-family: Plus Jakarta Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  letter-spacing: -0.05em;
+  color: #0451ab;
+}
+
+.pricing-plan-monthly {
+  font-family: Plus Jakarta Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #000000;
+}
+
+.pricing-plan-list {
+  font-family: Plus Jakarta Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.pricing-plan-button button {
+  background: #0451ab;
+  border-radius: 20px;
+  width: 153px;
+  height: 46px;
+  color: white;
+  border: none;
+  font-family: Plus Jakarta Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+}

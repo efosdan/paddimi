@@ -1,38 +1,119 @@
-.App {
+body {
+  margin: 0;
+  padding: 0;
+}
+
+Header {
+  padding: 10px 0px;
+  transition: all 300ms ease-in;
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  background-color: #0451ab;
+  color: white;
+  width: 100%;
+  height: 61px;
+  font-family: Plus Jakarta Sans;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.navbar_links ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.navbar_links li {
+  list-style: none;
+}
+
+.navbar_links li a {
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+}
+
+.howitworks-main-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.how-it-works-bottom-text {
+  font-family: Plus Jakarta Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  width: 70%;
   text-align: center;
+
+  color: #000000;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.bluebackground-text {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 100%;
+  height: 200px;
+  background: #0451ab;
   color: white;
+  font-family: Plus Jakarta Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.bluebackground-text button {
+  background: white;
+  border-radius: 20px;
+  width: 153px;
+  height: 46px;
+  color: #0451ab;
+  border: none;
+  font-family: Plus Jakarta Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.pricing-header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.pricing-header h2 {
+  font-family: Plus Jakarta Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 27px;
+}
+
+.pricing-wrapper {
+  width: 70%;
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 200px;
+}
+
+.footer-div {
+  text-align: center;
+  background: #0451ab;
+  color: white;
+  font-family: Plus Jakarta Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  padding: 15px;
 }
